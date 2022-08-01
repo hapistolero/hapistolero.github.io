@@ -1,0 +1,1532 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Cairo', sans-serif;
+    overflow-x: hidden;
+}
+
+/* navbar */
+nav{
+    
+   display: flex; 
+   background-color: rgb(199, 17,17);
+   justify-content: space-around;
+   padding: 20px 0;
+   color:white;
+   height: 20px;
+   align-items: center;
+   position: sticky;
+   top: 0%;
+   z-index: 999999;
+
+  
+}
+
+nav .logo{
+    font-family: 'Lobster', cursive;
+    letter-spacing: 1px;
+    
+}
+
+nav ul{
+    display: flex;
+   list-style: none;
+   justify-content: space-around;
+   width:40%;
+   
+
+}
+
+nav ul li a{
+    color: rgb(250, 240, 255);
+    text-decoration: none;
+    font-size: 0,8em;
+}
+
+nav ul li a:haver{
+   color: rgb(250, 240, 255);
+}
+
+/* Navbar End */
+
+/* JumboTron */
+
+.jumbotron{
+   
+    display: flex;
+   /* flex-direction: column; */ 
+   height:530px;
+   background-image: url("herox.jpg");
+   background-attachment: fixed;
+   background-size: cover;
+   background-position: 0 -120px;
+   background-color: rgb(0, 0, 0);
+    color: white;
+    padding: 50px;
+   
+    
+}
+
+.text-profile{
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    /* padding-top:50px;
+    padding-right:40%;  */
+   
+    
+}
+
+.text-profile h2{
+ font-size: 50px;
+}
+.profile{
+    display: flex;
+    justify-content: end;
+
+}
+
+
+/* End Jumbotron */
+
+/* About Me */
+
+div.about{
+    padding: 50px;
+
+   background-color: black;
+   /* background-image: url("g5.jpg"); */
+   background-image: linear-gradient(to bottom, rgba(0,0,0,0.6) 0%,rgba(0,0,0,0.6) 100%), url("g5.jpg");
+   background-repeat: no-repeat;
+   background-position: 50% 32%;
+   background-size: 407px 580px;
+   color: white;
+   height: 300px;
+   
+   
+}
+
+div.about div.about-text{
+    display: flex;
+    justify-content: center;
+    
+   
+    
+}  
+
+
+
+div.about div.about-text h3.a-text{
+   text-shadow: 1px 1px 1px rgb(113, 122, 156) ;
+} 
+
+div.about div.about-content div.kiri p.p-kiri{
+    text-shadow: 1px 1px 1px rgb(113, 122, 156) ;
+    
+}
+
+div.about div.about-content div.kanan p{
+    text-shadow: 1px 1px 1px rgb(113, 122, 156) ;
+    
+}
+
+div.about div.about-content{
+    display:flex;  
+    padding-top: 30px;
+    width: auto;
+    justify-content: center;
+    
+}
+
+div.about div.about-content div.kiri{
+    text-align: right;
+    width: 50%;
+    padding-right: 20px;
+    border-right: 1px solid white;
+   
+}
+
+div.about div.about-content div.kanan{
+    padding-left: 20px;
+    width: 50%;
+}
+
+
+/* End About Me */
+
+/* Project */
+
+.project{
+    height: 500px;
+    background-color: black;
+    background-image: url("gal-2.gif");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   background-size: 800px 800px;
+   background-position: 50% -80px;
+   color: white;
+}
+.project h3{
+    padding-top: 20px;
+    padding-left: 46%;
+    font-size: 25px;
+}
+
+.project-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.project-img img:nth-child(1){
+    height: 300px;
+    margin: 10px;
+    border: 2px solid salmon;
+}
+
+.project-img img:nth-child(2){
+    height: 300px;
+    margin: 10px;
+    border: 2px solid salmon;
+}
+
+.project-img img:nth-child(3){
+    height: 300px;
+    margin: 10px;
+    border: 2px solid salmon;
+}
+
+.pro-1 h4{
+    padding-left: 34%;
+}
+
+.pro-2 h4{
+    padding-left: 34%;
+}
+
+.pro-3 h4{
+    padding-left: 34%;
+}
+
+
+/* End Project */
+
+
+/* Gallery */
+
+.gallery {
+    color: white;
+    background-color: black;
+    background-image: url("gal-1.jpg");
+    background-size: cover;
+    background-position: 11px -50px;
+}
+
+.gallery h2{
+    padding-left: 47.6%;
+    padding-top: 50px ;
+}
+
+ /* .gal-img{
+   display: flex;
+   justify-content: center;
+}  */
+
+.gal-img .sub-main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+    padding-top: 50px;
+
+   
+}
+
+.sub-main .first-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.sub-main .second-gal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.sub-main .third-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+.sub-main .fourth-gal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 10px;
+}
+
+.sub-main .fifth-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.sub-main .right-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+.sub-main .left-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-top: 50px;
+}
+
+
+.gal-img .main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+.sub-main img:nth-child(1){
+    width: 100px;
+    height: 150px;
+    
+    border: 2px solid salmon;
+}
+
+.sub-main img:nth-child(2){
+    width: 100px;
+    height: 150px;
+    border: 2px solid salmon;
+}
+
+.sub-main img:nth-child(3){
+    width: 100px;
+    height: 150px;
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(4){
+    height: 100px;
+   
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(5){
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(6){
+    height: 100px;
+   
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(7){
+    height: 100px;
+    margin: 10px;
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(8){
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(9){
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.gal-img .main .gal-main img{
+    width: 400px;
+    margin: 10px;
+    border: 2px solid salmon;
+}
+
+
+
+.pro-1 h4{
+    padding-left: 34%;
+}
+
+.pro-2 h4{
+    padding-left: 34%;
+}
+
+.pro-3 h4{
+    padding-left: 34%;
+}
+
+
+
+/* End Gallery */
+
+/* Skills */
+.service{
+   padding-left: 45px;
+   background-color: black;
+   color: white;
+    background-image: url("join us.gif");
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 0% -120%;
+}
+.serv-text{
+   
+    margin-left: 39%;
+    padding: 30px;
+    
+    box-sizing: border-box;
+}
+.skills {
+    margin-bottom: 40px;
+}
+.skills div {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(62, 51, 51);
+    padding: 20px;
+    margin : 10px;
+    width: 45%;
+    border-radius: 50px 0px 150px 0px;
+}
+.skills div.skill-r {
+ position: relative;
+ bottom:115px;
+ display: flex;
+ justify-content: end;
+  margin-left: 50%;
+  border-radius: 0px 50px 0px 150px;
+    
+}
+
+
+
+.skills  h4 {
+    position: relative;
+    display: flex;
+   justify-content: end;
+   bottom: 15px;
+   z-index: 0;
+}
+
+.skills div.skill-r h4 {
+    position: relative;
+    display: flex;
+   justify-content: end;
+   bottom: 15px;
+   z-index: 0;
+
+}
+
+div.skill-logo{
+    position: relative;
+    border: 2px solid salmon;
+    left: 8px;
+    width: 60px;
+    height: 60px;
+    border-radius: 60px;
+    margin: 0px;
+    background-color: black;
+    
+    z-index: 5;
+}
+.java .skill-logo{
+    background-image: url("java.png");
+    background-size: 35px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.css .skill-logo{
+    background-image: url("css.png");
+    background-size: 50px;
+    background-repeat: no-repeat;
+    background-position: 50% 85%;
+}
+.skill-r  #js{
+    background-image: url("js.png");
+    background-size: cover;
+    background-repeat:repeat-y;
+    background-position: 70% 90%;
+}
+
+.skill-r  #html{
+    background-image: url("html.png");
+    background-size: 55px;
+    background-repeat: no-repeat;
+    background-position: 50% 5px;
+}
+
+div.skill-r div.skill-bar{
+    position: relative;
+    left: 100px;
+    width: 80%;
+    border: 2px solid salmon;
+    background-color: aqua;
+
+    border-radius: 0px 50px 0px 150px;
+
+}
+
+div.skill-bar{
+    position: relative;
+    right: 80px;
+    width: 80%;
+    border: 2px solid salmon;
+    border-radius: 0px 0px 150px 50px;
+    background-color: aqua;
+}
+
+
+/* End Skills */
+
+
+
+/* Hamburger Menu */
+.menu-toggle{
+    display: none;
+    flex-direction: column;
+    height: 20px;
+    justify-content: space-between;
+    position: relative;
+}
+
+.menu-toggle input {
+    position: absolute;
+    width: 40px;
+    height: 28px;
+    left : -5px;
+    top: -3px;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.menu-toggle span {
+    display: block;
+    width:28px;
+    height: 3px;
+    background-color: rgb(250, 240, 255);
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+
+
+/* Hamburgen Animation */
+.menu-toggle span:nth-child(2){
+    transform-origin:0 0;
+}
+
+.menu-toggle span:nth-child(4){
+    transform-origin:0 100%;
+}
+
+.menu-toggle input:checked ~ span:nth-child(2){
+    background-color: white;
+    transform: rotate(45deg) translate(-1px, -1px);
+}
+
+.menu-toggle input:checked ~ span:nth-child(4){
+    background-color: white;
+    transform: rotate(-45deg) translate(-1px, 0);
+}
+
+.menu-toggle input:checked ~ span:nth-child(3){
+   transform: scale(0);
+}
+
+
+/* services and skill */
+
+.services{    
+    display: flex;
+    justify-content: space-evenly;
+    padding-right:110px ;    
+    padding-top: 0px;
+    padding-bottom: 100px;   
+    z-index: 6;    
+}
+
+.serc{
+  
+    display: flex;
+    justify-content: space-around;    
+    padding-top: 50px;
+    padding-bottom: 100px;
+    z-index: 6;    
+}
+
+.services h4{
+    position: relative;
+    left: -5%;
+    top: 15%;
+}
+
+.services div.ser{   
+    border: 2px solid;
+    width: 50px;
+    height: 50px;
+    position: relative;    
+    left: 50%;
+    border-radius: 100%;
+}
+
+/* end service */
+
+/* Contact */
+
+.contact{
+    
+    height: 500px;
+    background-color: black;
+    color:white;
+    background-image: url("cont2.png");
+    background-size: 500px;
+   
+    
+}
+div.message div.contact-text { 
+       
+   padding-left: 46%;
+   padding-bottom: 25px;
+  
+}
+
+.message-container{
+    padding: 7px;
+    margin-left: 37%;
+    background-color: rgb(88, 84, 84);
+    width: 25%;
+    border-top-left-radius: 20px;
+
+
+}
+div.message-container input[type=text]{
+    width: 270px;
+    height: 30px;
+    border: none;
+    background-color: transparent;
+    border-bottom:2px solid black;
+    color: #fff;
+    font-size: 15px;
+}
+
+div.message-container textarea{
+    width: 270px;
+    border:none;
+    background-color: transparent;
+    border-bottom:2px solid black;
+    color: #fff;
+    font-size: 15px;
+}
+
+div.message-container input[type=submit]{
+    width: 60px;
+    height: 25px;
+    background-color: salmon;
+   
+
+}
+div.message-container input[type=reset]{
+    width: 60px;
+    height: 25px;
+    background-color: salmon;
+    margin-left:5px ;
+
+}
+
+
+
+
+/* End Comtact */
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: center;
+   padding: 20px;
+    color: white;
+    background-color: black;
+}
+
+.footer-sub{
+    display: flex;    
+    background-color: black;
+}
+
+.footer-sub h6:nth-child(2){
+    padding-left: 5px;
+}
+
+
+/* end footer */
+
+
+
+/* Responsive Breakpoint */
+
+
+/* Slide */
+
+@media screen and (max-width: 1024px) {
+    
+
+    .jumbotron{
+        height: 420px;
+        background-position: 0px 0px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+}
+
+/* Tablet Size */
+@media screen and (max-width: 768px) {
+    nav ul {        
+        width: 50%;
+    }
+
+    .jumbotron{
+        height: 400px;
+        background-position: -70px -80px;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+
+    div.about div.about-content div.kiri{
+        text-align: right;
+        width: 50%;
+        padding-right: 20px;
+        border-right: 1px solid white;
+        font-size: 15px;
+    }
+    
+    div.about div.about-content div.kanan{
+        padding-left: 20px;
+        width: 50%;
+        font-size: 15px;
+    }
+
+    .project-img img:nth-child(1){
+        height: 200px;
+        margin: 25px;       
+        border: 2px solid salmon;
+    }
+    
+    .project-img img:nth-child(2){
+        height: 200px;
+        margin: 25px;
+        border: 2px solid salmon;
+    }
+    
+    .project-img img:nth-child(3){
+        height: 200px;
+        margin: 25px;
+        border: 2px solid salmon;
+    }
+
+    .project-img{
+        padding-top:65px ;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .sub-main .first-gal{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .sub-main .second-gal{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+    
+    .sub-main .third-gal{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    .sub-main .fourth-gal{
+        display: flex;
+        flex-direction: column;
+        padding-top: 50px;
+        padding-left: 10px;
+    }
+    
+    .sub-main .fifth-gal{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+    }
+    
+    .sub-main .right-gal{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    
+    .sub-main .left-gal{
+        display: flex;
+        flex-direction: column;
+        padding-left: 10px;
+        padding-top: 50px;
+    }
+    
+    
+    .gal-img .main{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 50px;
+    }
+    .gal-img .sub-main{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 100px;
+        padding-top: 50px;
+    
+       
+    }
+    
+    
+    .sub-main img:nth-child(1){
+        width: 80px;
+        height: 120px;
+        
+        border: 2px solid salmon;
+    }
+    
+    .sub-main img:nth-child(2){
+        width: 80px;
+        height: 120px;
+        border: 2px solid salmon;
+    }
+    
+    .sub-main img:nth-child(3){
+        width: 80px;
+        height: 120px;
+        border: 2px solid salmon;
+    }
+    
+    .gal-img img:nth-child(4){
+        height: 80px;
+       
+        border: 2px solid salmon;
+    }
+    
+    .gal-img img:nth-child(5){
+        height: 90px;
+        
+        border: 2px solid salmon;
+    }
+    
+    .gal-img img:nth-child(6){
+        height: 90px;
+       
+        border: 2px solid salmon;
+    }
+    
+    .gal-img img:nth-child(7){
+        height: 90px;
+        margin: 120px;
+        border: 2px solid salmon;
+    }
+    
+    .gal-img img:nth-child(8){
+        height: 90px;
+        
+        border: 2px solid salmon;
+    }
+    
+    .gal-img img:nth-child(9){
+        height: 90px;
+        
+        border: 2px solid salmon;
+    }
+
+    .gallery {
+        color: white;
+        background-color: black;
+        background-image: url("gal-1.jpg");
+        background-size: 750px 1100px;
+        background-position: 6px 0px;
+    }
+    
+    .project h3{
+        padding-top: 50px;
+        padding-left: 45%;
+        font-size: 25px;
+    }
+    .gallery h2{
+        padding-left: 45.5%;
+        padding-top: 37px ;
+    }
+
+    .service .serv-text{
+        margin-left: 32%;
+    }
+    .skills div {
+        display: flex;
+        justify-content: flex-start;
+        background-color: rgb(62, 51, 51);
+        padding: 20px;
+        margin : 10px;       
+        width: 45%;
+        height: 60px;
+        border-radius: 50px 0px 150px 0px;
+    }
+
+    .skills div.skill-r {
+        position: relative;
+        bottom:70px;
+        display: flex;
+        justify-content: end;
+         margin-left: 50%;
+         border-radius: 0px 50px 0px 150px;
+         width: 45%;
+         height: 60px;
+         padding: 0;
+        
+    }
+
+    .skills  h4 {
+        position: relative;
+        display: flex;
+       justify-content: end;       
+       bottom: 25px;
+       left: 10px;
+       z-index: 0;
+    }
+    
+    .skills div.skill-r h4 {
+        position: relative;
+        display: flex;
+       justify-content: end;
+       bottom: 5px;
+       left:-62px;
+       z-index: 5;
+    
+    }
+    
+    div.skill-logo{
+        position: relative;
+        border: 2px solid salmon;
+        left: 0px;  
+        bottom:15px;      
+        width: 250px;
+        height: 50px;
+        border-radius: 60px;
+        margin: 0px;
+        padding: 0px;
+        background-color: black;
+        
+        z-index: 5;
+    }
+
+    div.skill-r  #html{
+        position: absolute;
+        width: 52px;
+        height: 50px;
+        margin: 0px;
+        padding: 0px;
+        z-index: 11;
+        left: 250px;
+        top: 5px;
+    }
+
+    div.skill-r #js.skill-logo{
+       
+        position: absolute;
+        left: 250px;
+        width: 52px;
+        height: 50px;
+        top: 5px;
+       
+        margin-right: 0px;
+        padding: 0px;
+        z-index: 35;
+      
+    }
+
+
+    .java .skill-logo{
+        background-image: url("java.png");
+        background-size: 25px;
+        background-repeat: no-repeat;
+        background-position: 50% 20%;
+    }
+    
+    .css .skill-logo{
+        background-image: url("css.png");
+        background-size: 40px;
+        background-repeat: no-repeat;
+        background-position: 50% 70%;
+    }
+    .skill-r  #js{
+        background-image: url("js.png");
+        background-size: 70px;
+        background-repeat:repeat-y;
+        background-position: 70% 90%;
+       
+    }
+    
+    .skill-r  #html{
+        background-image: url("html.png");
+        background-size: 45px;
+        background-repeat: no-repeat;
+        background-position: 50% 3px;
+    }
+    
+    div.skill-r div.skill-bar{
+        position: relative;
+        left: 0px;
+        top:20px;
+        width: 225px;
+        height: 22px;
+        border: 2px solid salmon;
+        background-color: aqua;
+    
+        border-radius: 0px 50px 0px 150px;
+        margin: 0px;
+        padding: 0px;
+        margin-right: 0px;
+       
+    }
+
+    div.skill-r #javs.skill-bar {
+        
+        position: relative;
+        width:225px;
+        top: 20px;
+        left:35px;
+       
+        
+    }
+    
+    div.skill-bar{
+        position: relative;
+        
+        left: -35px;
+        
+                   
+        width: 1000px;
+        height: 22px;
+        border: 2px solid salmon;
+        border-radius: 0px 0px 150px 50px;
+        background-color: aqua;
+       
+        padding: 0px;
+        margin:0px
+        
+    }
+
+    .services h4{
+        font-size: small;
+        position: relative;
+        left: -5%;
+        top: 15%;
+    }
+    
+    .services div.ser{   
+        border: 2px solid;
+        width: 50px;
+        height: 50px;
+        position: relative;    
+        left: 50%;
+        border-radius: 100%;
+    }
+    .message-container{
+        padding: 7px;
+        margin-left: 30%;
+        background-color: rgb(88, 84, 84);
+        width: 40%;
+        border-top-left-radius: 20px;
+        margin-bottom: 50px;
+    
+
+    }
+    .message .contact-text h2{
+        padding-top: 20px;
+        margin-left: -10px;
+    }
+
+    .service{
+        background-size: cover;
+        background-position: 0px -50px;
+    }
+
+    
+
+
+}
+
+
+/* Mobile Size */
+@media screen and (max-width: 576px) {
+    .menu-toggle{
+        display: flex;
+    }
+
+
+    nav ul {        
+        position: absolute;
+        right: 0;
+        top:40px;
+        height: 100vh;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+        background-color: black;
+        z-index: -2;
+        transform: translateX(100%);
+        transition: all 1s;
+        opacity: 0;
+    }
+    
+   nav ul.slide{
+    opacity: 1;
+    transform: translateX(0);
+   }
+
+   .jumbotron{
+    position: relative;
+    height:600px;
+    background-position: -260px 0px;
+    z-index: -2;
+   }
+   
+   .text-profile{
+    width: 200px;
+    margin-top: 50px;
+    
+
+   }
+   
+   .text-profile h2{
+    font-size: 25px;
+   }
+
+   div.about div.about-content div.kiri{
+    text-align: right;
+    width: 50%;
+    padding-right: 20px;
+    border-right: 1px solid white;
+    font-size: 12px;
+}
+
+div.about div.about-content div.kanan{
+    padding-left: 20px;
+    width: 50%;
+    font-size: 12px;
+}
+
+.project-img img:nth-child(1){
+    height: 150px;
+    margin: 25px;       
+    border: 2px solid salmon;
+}
+
+.project-img img:nth-child(2){
+    height: 150px;
+    margin: 25px;
+    border: 2px solid salmon;
+}
+
+.project-img img:nth-child(3){
+    height: 150px;
+    margin: 25px;
+    border: 2px solid salmon;
+}
+
+.project-img{
+    padding-top:65px ;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sub-main .first-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.sub-main .second-gal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.sub-main .third-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+.sub-main .fourth-gal{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px;
+    padding-left: 5px;
+}
+
+.sub-main .fifth-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+}
+
+.sub-main .right-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-top: 50px;
+}
+
+.sub-main .left-gal{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5px;
+    padding-top: 50px;
+}
+
+
+.gal-img .main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.gal-img .sub-main{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 50px;
+
+   
+}
+
+
+.sub-main img:nth-child(1){
+    width: 60px;
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.sub-main img:nth-child(2){
+    width: 60px;
+    height: 100px;
+    border: 2px solid salmon;
+}
+
+.sub-main img:nth-child(3){
+    width: 60px;
+    height: 100px;
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(4){
+    height: 100px;
+   
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(5){
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(6){
+    height: 100px;
+   
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(7){
+    height: 100px;
+    margin: 120px;
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(8){
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.gal-img img:nth-child(9){
+    height: 100px;
+    
+    border: 2px solid salmon;
+}
+
+.gallery {
+    color: white;
+    background-color: black;
+    background-image: url("gal-1.jpg");
+    background-size: cover;
+    background-position: 5px -10px;
+}
+
+.project h3{
+    padding-top: 50px;
+    padding-left: 43%;
+    font-size: 25px;
+}
+.gallery h2{
+    padding-left: 45%;
+    padding-top: 15px ;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px rgb(129, 125, 125);
+
+}
+
+.service .serv-text{
+    margin-left: 25%;
+}
+.skills div {
+    display: flex;
+    justify-content: flex-start;
+    background-color: rgb(62, 51, 51);
+    padding: 0px;
+    margin : 0px;       
+    width: 45%;
+    height: 50px;
+    border-radius: 50px 0px 150px 0px;
+}
+
+.skills div.skill-r {
+    position: relative;
+    bottom:50px;
+    display: flex;
+    justify-content: end;
+     margin-left: 50%;
+     border-radius: 0px 50px 0px 150px;
+     width: 45%;
+     height: 50px;
+     padding: 0px;
+     
+   }
+
+.skills  h4 {
+    position: relative;
+    display: flex;
+   justify-content: end;
+   font-size: 15px;
+   bottom: 8px;
+   z-index: 0;
+}
+
+.skills div.skill-r h4 {
+    position: relative;
+    display: flex;
+   justify-content: end;
+   bottom: 7.3px;
+   z-index: 0;
+   margin: 0px;
+   padding: 0px;
+   font-size: 15px;
+
+}
+
+div.skill-logo{
+    position: relative;
+    border: 2px solid salmon;
+    left: 8px;
+    top: 3px;
+    
+    width: 55px;
+    height: 45px;
+    border-radius: 60px;
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    
+    z-index: 5;
+}
+
+
+
+
+div.skill-r #js{
+    position: absolute;
+    left: 250px;
+    width: 52px;
+    height: 50px;
+    top: 5px;
+   
+    margin-right: 0px;
+    padding: 0px;
+    z-index: 35;
+}
+
+
+.java .skill-logo{
+    background-image: url("java.png");
+    background-size: 25px;
+    background-repeat: no-repeat;
+    background-position: 50% 20%;
+}
+
+.css .skill-logo{
+    background-image: url("css.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 3px;
+}
+.skill-r  #js{
+    background-image: url("js.png");
+    background-size: 70px;
+    background-repeat:repeat-y;
+    background-position: 70% 90%;
+    
+   
+}
+
+.skill-r  #html{
+    background-image: url("html.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 50% 3px;
+}
+
+div.skill-r div.skill-bar{
+    
+    position: relative;
+    left: 10px;
+    top: 16px;
+    width: 75%;
+    height: 17px;
+    border: 2px solid salmon;
+    background-color: aqua;
+
+    border-radius: 0px 50px 0px 150px;
+    padding:0px;
+    margin: 0px;
+    z-index: 1;
+
+
+}
+
+div.skill-r #javs.skill-bar {
+        
+    position: relative;
+    width:225px;
+    top: 15px;
+    left:35px;       
+}
+
+
+
+
+
+div.skill-bar{
+    position: relative;
+    top: 15px;
+    right: 80px;
+    width: 80%;
+    height: 17px;
+    border: 2px solid salmon;
+    border-radius: 0px 0px 150px 50px;
+    background-color: aqua;
+}
+
+.services h4{
+    font-size: 9.7px;
+    position: relative;
+    left: -5%;
+    top: 15%;
+    z-index: 12;
+}
+
+.services div.ser{   
+    border: 2px solid;
+    width: 30px;
+    height: 30px;
+    position: relative;    
+    left: 50%;
+    border-radius: 100%;
+    font-size: small;
+   
+    
+
+}
+
+.serc{
+    position: relative;
+    left: 20px;
+}
+
+
+
+
+
+
+.message-container{
+    padding: 7px;
+    margin-left: 25%;
+    background-color: rgb(88, 84, 84);
+    width: 54%;
+    border-top-left-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.message .contact-text h2{
+    padding-top: 20px;
+    margin-left: -10px;
+    
+}
+
+.service{
+    background-size: cover;
+    background-position: -40px 0px;
+
+}
+
+div.skill-r  #html{
+    position: absolute;
+    width: 45px;
+    height: 45px;
+    margin: 0px;
+    padding: 0px;
+    z-index: 11;
+    left: 170px;
+    top: 3px;
+}
+
+div.skill-r #js.skill-logo{
+   
+    position: absolute;
+    left: 170px;
+    width: 45px;
+    height: 45px;
+    top: 3px;
+   
+    margin-right: 0px;
+    padding: 0px;
+    z-index: 35;
+  
+}
+
+
+}
